@@ -1,0 +1,13 @@
+{
+    "title": "Suite Spot Management",
+    "domain": "https://www.suitespotmgmt.com",
+    "meta": {
+        "title": "Suite Spot Management",
+        "description": "Student Housing and Co-Living Properties in California."
+    },
+    "openGraph": {
+        "title": "Suite Spot Management",
+        "description": "Student Housing and Co-Living Properties in California.",
+        "image": "/img/default-og.jpg"
+    }
+}

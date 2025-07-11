@@ -1,0 +1,47 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.home {
+    min-height: 100dvh;
+    display: flex;
+
+    & h1 {
+        position: absolute;
+    }
+
+    & .brand-1 {
+        background-color: var(--primary-10);
+        background: url("/img/student-housing-color.webp") center / cover
+            no-repeat;
+    }
+
+    & .brand-2 {
+        background-color: var(--secondary-10);
+        background: url("/img/coliving-color.webp") center / cover no-repeat;
+    }
+
+    & section {
+        position: relative;
+        flex: 1 0 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: var(--space-l);
+    }
+
+    & .brand-logo {
+        width: min(20rem, 80%);
+    }
+
+    & .button-link {
+        margin-block-start: var(--space-l);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        flex-direction: column;
+    }
+}

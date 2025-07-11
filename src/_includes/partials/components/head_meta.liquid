@@ -1,0 +1,34 @@
+{% comment %} General {% endcomment %}
+<title>{{ siteSettings.meta.title }}</title>
+<meta
+    name="description"
+    content="{{ siteSettings.meta.description }}"
+>
+<link rel="canonical" href="{{ site_settings.site_domain | append: page.url }}">
+<meta name="generator" content="{{ eleventy.generator }}">
+<meta name="robots" content="index, follow">
+{% comment %} Basic OpenGraph {% endcomment %}
+<meta
+    property="og:title"
+    content="{{ siteSettings.openGraph.title }}"
+>
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ site_settings.site_domain | append: page.url }}">
+<meta
+    property="og:image"
+    content="{{ siteSettings.openGraph.image }}"
+>
+{% comment %} Optional OpenGraph {% endcomment %}
+<meta
+    property="og:description"
+    content="{{ siteSettings.openGraph.description }}"
+>
+<meta property="og:site_name" content="{{ siteSettings.title }}">
+<meta property="og:locale" content="en_US">
+{% comment %} Favicon {% endcomment %}
+{% comment %}
+    <link rel="icon" type="image/png" href="" sizes="32x32">
+    <link rel="icon" type="image/png" href="" sizes="16x16">
+{% endcomment %}
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="shortcut icon" href="/favicon.svg">

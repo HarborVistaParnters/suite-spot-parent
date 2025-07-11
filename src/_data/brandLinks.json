@@ -1,0 +1,17 @@
+[
+    {
+        "id": "parent",
+        "title": "Suite Spot Management",
+        "href": "https://www.suitespotmgmt.com"
+    },
+    {
+        "id": "brand-1",
+        "title": "Suite Spot Student Housing",
+        "href": "https://www.suitespotstudenthousing.com"
+    },
+    {
+        "id": "brand-2",
+        "title": "Suite Spot Co-Living",
+        "href": "https://www.suitespotcoliving.com"
+    }
+]
