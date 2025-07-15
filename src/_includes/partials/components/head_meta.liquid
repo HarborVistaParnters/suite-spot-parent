@@ -4,7 +4,7 @@
     name="description"
     content="{{ siteSettings.meta.description }}"
 >
-<link rel="canonical" href="{{ site_settings.site_domain | append: page.url }}">
+<link rel="canonical" href="{{ siteSettings.domain | append: page.url }}">
 <meta name="generator" content="{{ eleventy.generator }}">
 <meta name="robots" content="index, follow">
 {% comment %} Basic OpenGraph {% endcomment %}
@@ -13,7 +13,7 @@
     content="{{ siteSettings.openGraph.title }}"
 >
 <meta property="og:type" content="website">
-<meta property="og:url" content="{{ site_settings.site_domain | append: page.url }}">
+<meta property="og:url" content="{{ siteSettings.domain | append: page.url }}">
 <meta
     property="og:image"
     content="{{ siteSettings.openGraph.image }}"
